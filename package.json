@@ -1,0 +1,69 @@
+{
+  "name": "catarse.js",
+  "version": "1.0.26",
+  "author": "Diogo Biazus",
+  "contributors": [
+    {
+      "name": "Vinícius Andrade",
+      "email": "vchavesster@gmail.com"
+    }
+  ],
+  "description": "Catarse JS components",
+  "devDependencies": {
+    "babel-core": "6.8.0",
+    "babel-eslint": "^7.1.1",
+    "babel-loader": "6.2.4",
+    "babel-preset-es2015": "6.6.0",
+    "babel-preset-es2015-rollup": "1.1.1",
+    "eslint": "^3.16.0",
+    "eslint-config-airbnb-base": "^11.1.0",
+    "eslint-config-google": "^0.7.1",
+    "eslint-config-standard": "^6.2.1",
+    "eslint-plugin-flowtype": "^2.30.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-promise": "^3.4.2",
+    "eslint-plugin-standard": "^2.0.1",
+    "flow-bin": "^0.33.0",
+    "gulp": "^3.9.0",
+    "gulp-babel": "5.2.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-concat": "^2.6.0",
+    "gulp-flowtype": "^1.0.0",
+    "gulp-if": "^2.0.2",
+    "gulp-jscs": "^2.0.0",
+    "gulp-jshint": "^1.11.2",
+    "gulp-load-plugins": "^1.4.0",
+    "gulp-plumber": "^1.0.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sourcemaps": "^1.5.2",
+    "gulp-uglify": "^1.4.0",
+    "gulp-util": "^3.0.6",
+    "jasmine-core": "^2.3.4",
+    "jshint-stylish": "^2.0.1",
+    "karma": "^0.13.9",
+    "karma-jasmine": "^0.3.6",
+    "karma-nodewebkit-launcher": "0.0.12",
+    "karma-spec-reporter": "0.0.20",
+    "rollup-plugin-babel": "^2.4.0",
+    "rollup-plugin-flow": "^1.0.1",
+    "rollup-plugin-multi-entry": "^1.2.0",
+    "rollup-stream": "^1.5.0",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0",
+    "yargs": "^3.24.0"
+  },
+  "scripts": {
+    "test": "gulp test"
+  },
+  "dependencies": {
+    "chartjs": "^0.3.23",
+    "diacritics": "^1.2.3",
+    "i18n-js": "^1.0.0",
+    "jquery": "^3.1.1",
+    "mithril": "^0.2.4",
+    "mithril-postgrest": "^2.0.0",
+    "moment": "^2.13.0",
+    "moment-timezone": "^0.5.4",
+    "underscore": "^1.8.3"
+  }
+}
