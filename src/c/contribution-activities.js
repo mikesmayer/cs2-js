@@ -61,7 +61,7 @@ const contributionActivities = {
         if (!ctrl.collectionL() && !_.isUndefined(ctrl.resource()) && (ctrl.collectionSize() || 0) > 0) {
             const resource = ctrl.resource(),
                 elapsed = h.translatedTime(resource.elapsed_time),
-                projectLink = `https://catarse.me/${resource.permalink}?ref=ctrse_home_activities`;
+                projectLink = `https://citizensupported.org/${resource.permalink}?ref=ctrse_home_activities`;
 
             return m('.w-section.section.bg-backs-carrosel', { config: ctrl.startConfig }, [
                 m('.w-container.u-text-center.fontcolor-negative', [

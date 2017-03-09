@@ -254,7 +254,7 @@ const userAboutEdit = {
                                                                   })
                                                                  ),
                                                                 m('.w-col.w-col-6.w-col-small-6.w-col-tiny-6.text-field.postfix.no-hover',
-                                                                  m('.fontcolor-secondary.fontsize-smaller', '  .catarse.me')
+                                                                  m('.fontcolor-secondary.fontsize-smaller', '  .citizensupported.org')
                                                                  )
                                                             ]
                                                            )

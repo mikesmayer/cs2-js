@@ -17,7 +17,7 @@ const successfulProjectTaxModal = {
             m('.modal-dialog-content', [
                 m('p.fontsize-small.u-marginbottom-40', [
                     'Confira o extrato do seu projeto, já incluindo as taxas e retenções. Se você tiver dúvidas sobre como esse cálculo é feito, ',
-                    m('a.alt-link[href="http://suporte.catarse.me/hc/pt-br/articles/202037493-FINANCIADO-Como-ser%C3%A1-feito-o-repasse-do-dinheiro-"][target="__blank"]', 'acesse aqui'),
+                    m('a.alt-link[href="http://suporte.citizensupported.org/hc/pt-br/articles/202037493-FINANCIADO-Como-ser%C3%A1-feito-o-repasse-do-dinheiro-"][target="__blank"]', 'acesse aqui'),
                     '.'
                 ]),
                 m('div', [
