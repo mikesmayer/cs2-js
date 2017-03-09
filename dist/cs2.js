@@ -7754,10 +7754,6 @@ var userSettings = {
                 birth_date: fields.birth_date()
             };
 
-            if (fields.bank_account_id()) {
-                userData.bank_account_attributes['id'] = fields.bank_account_id().toString();
-            }
-
             if (args.publishingUserSettings) {
                 userData["publishing_user_settings"] = true;
             }
@@ -7774,6 +7770,10 @@ var userSettings = {
                     account_digit: fields.account_digit(),
                     account_type: fields.bank_account_type()
                 };
+
+                if (fields.bank_account_id()) {
+                    userData.bank_account_attributes['id'] = fields.bank_account_id().toString();
+                }
             }
 
             return m.request({
