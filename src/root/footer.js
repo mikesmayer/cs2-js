@@ -50,7 +50,7 @@ const footer = {
                                                 m('a.link-footer[href=\'http://github.com/catarse/catarse\']',
                                                     ' Github'
                                                 ),
-                                                m('a.link-footer[href=\'http://blog.catarse.me\']',
+                                                m('a.link-footer[href=\'http://blog.citizensupported.org\']',
                                                     ' Blog'
                                                 ),
                                                 m('a.link-footer[href=\'https://www.catarse.me/pt/jobs\']',
@@ -109,7 +109,7 @@ const footer = {
                                                 m('a.link-footer[href=\'/pt/explore?ref=ctrse_footer\']',
                                                     ' Explore projetos'
                                                 ),
-                                                m('a.w-hidden-main.w-hidden-medium.w-hidden-small.link-footer[href=\'http://blog.catarse.me?ref=ctrse_footer\']',
+                                                m('a.w-hidden-main.w-hidden-medium.w-hidden-small.link-footer[href=\'http://blog.citizensupported.org?ref=ctrse_footer\']',
                                                     ' Blog'
                                                 ),
                                                 m('a.w-hidden-main.w-hidden-medium.w-hidden-small.link-footer[href=\'http://suporte.catarse.me/hc/pt-br/requests/new\']',

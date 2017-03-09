@@ -20,12 +20,12 @@ const blogBanner : Component = {
                 [
                     m('.u-text-center',
                         [
-                            m('a[href=\'http://blog.catarse.me\'][target=\'blank\']',
+                            m('a[href=\'http://blog.citizensupported.org\'][target=\'blank\']',
                                 m('img.u-marginbottom-10[alt=\'Icon blog\'][src=\'/assets/icon-blog.png\']')
                             ),
                             m('.fontsize-large.u-marginbottom-60.text-success',
-                                m('a.link-hidden-success[href=\'http://blog.catarse.me\'][target=\'__blank\']',
-                                    'Blog do Catarse'
+                                m('a.link-hidden-success[href=\'http://blog.citizensupported.org\'][target=\'__blank\']',
+                                    'Citizen Supported Blog'
                                 )
                             )
                         ]
