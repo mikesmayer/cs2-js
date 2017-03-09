@@ -95,7 +95,7 @@ const footer = {
                                                     'Navegue'
                                                 ),
                                                 m('a.w-hidden-small.w-hidden-tiny.link-footer[href=\'/en/start?ref=ctrse_footer\']',
-                                                    ' Comece seu projeto'
+                                                    ' Fund your activism'
                                                 ),
                                                 m('a.u-marginbottom-30.link-footer[href=\'http://crowdfunding.catarse.me/financiamento-coletivo-musica-independente?ref=ctrse_footer\']',
                                                     [

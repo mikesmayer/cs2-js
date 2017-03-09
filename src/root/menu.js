@@ -41,7 +41,7 @@ const menu = {
                             m('img[alt=\'Logo big\'][src=\'/assets/catarse_bootstrap/logo_big.png\']')
                         ),
                         args.menuShort ? '' : m('div#menu-components', [
-                            m('a.w-hidden-small.w-hidden-tiny.header-link.w-nav-link[href=\'/start?ref=ctrse_header\']', { config: m.route }, 'Comece seu projeto'),
+                            m('a.w-hidden-small.w-hidden-tiny.header-link.w-nav-link[href=\'/start?ref=ctrse_header\']', { config: m.route }, 'Fund your activism'),
                             m('a.w-hidden-small.w-hidden-tiny.header-link.w-nav-link[href=\'/explore?ref=ctrse_header\']', { config: m.route }, 'Explore'),
                             m.component(menuSearch)
                         ])
@@ -56,7 +56,7 @@ const menu = {
                 [
                     m('a.header-link.w-nav-link[href=\'/en/start?ref=ctrse_header\']',
                         { onclick: () => m.route('/start') },
-                        'Comece seu projeto'
+                        'Fund your activism'
                     ),
                     m('a.header-link.w-nav-link[href=\'/en/explore?ref=ctrse_header\']',
                         { onclick: () => m.route('/explore') },
