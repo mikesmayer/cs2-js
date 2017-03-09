@@ -267,7 +267,7 @@ const userAboutEdit = {
                                     'Email'
                                    ),
                                   m('.fontsize-small.u-marginbottom-30',
-                                    'Mantenha esse email atualizado pois ele é o canal de comunicação entre você, a equipe do Catarse e a equipe dos projetos que você apoiou. '
+                                    'Mantenha esse email atualizado pois ele é o canal de comunicação entre você, a equipe do Citizen Supported e a equipe dos projetos que você apoiou. '
                                    ),
                                   m('.fontsize-base.u-marginbottom-40', [
                                       m('span.fontweight-semibold.card.u-radius',
@@ -557,7 +557,7 @@ const userAboutEdit = {
                                                               m(`a.alt-link.fontsize-smaller[href='/en/users/${user.id}'][rel='nofollow']`, {
                                                                   onclick: ctrl.deleteAccount
                                                               },
-                                                                'Desativar minha conta no Catarse'
+                                                                'Desativar minha conta no Citizen Supported'
                                                                ),
                                                               m('form.w-hidden', { action: `/en/users/${user.id}`, method: 'post', config: ctrl.setDeleteForm }, [
                                                                   m(`input[name='authenticity_token'][type='hidden'][value='${h.authenticityToken()}']`),

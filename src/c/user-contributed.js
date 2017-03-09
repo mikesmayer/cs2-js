@@ -61,7 +61,7 @@ const userContributed = {
                                 m('.w-col.w-col-6',
                                     [
                                         m('.fontsize-large.u-marginbottom-30',
-                                                'Ora, ora... você ainda não apoiou nenhum projeto no Catarse!'),
+                                                'Ora, ora... você ainda não apoiou nenhum projeto no Citizen Supported!'),
                                         m('.w-row',
                                             [
                                                 m('.w-col.w-col-3'),

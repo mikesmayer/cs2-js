@@ -20,7 +20,7 @@ const UnsignedFriendFacebookConnect = {
                     m('.w-row', [
                         m('.w-col.w-col-8', [
                             m('.fontsize-largest.u-marginbottom-20', 'Encontre projetos incríveis junto com seus amigos'),
-                            m('.fontsize-small', 'O universo do Catarse junto com a sua rede do Facebook te farão descobrir projetos incríveis!')
+                            m('.fontsize-small', 'O universo do Citizen Supported junto com a sua rede do Facebook te farão descobrir projetos incríveis!')
                         ]),
                         m('.w-col.w-col-4', [
                             m('a.w-button.btn.btn-fb.btn-large.u-margintop-30.u-marginbottom-10[href="/connect-facebook"]', 'Conecte seu facebook'),

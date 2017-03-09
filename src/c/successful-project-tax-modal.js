@@ -43,7 +43,7 @@ const successfulProjectTaxModal = {
                             m('.text-error', `- R$ ${h.formatNumber(pt.catarse_fee, 2)}`)
                         ]),
                         m('.w-col.w-col-8', [
-                            m('div', `Taxa do Catarse e meio de pagamento (${h.formatNumber((pt.service_fee * 100), 2)}%) `)
+                            m('div', `Taxa do Citizen Supported e meio de pagamento (${h.formatNumber((pt.service_fee * 100), 2)}%) `)
                         ])
                     ]),
                     m('.divider.u-marginbottom-10'),

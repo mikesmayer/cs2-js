@@ -61,7 +61,7 @@ const userNotifications = {
                                             m('input[name=user[newsletter]][type=\'hidden\'][value=\'0\']'),
                                             m(`input.w-checkbox-input${user.newsletter ? '[checked=\'checked\']' : ''}[id='user_newsletter'][name=user[newsletter]][type='checkbox'][value='1']`),
                                             m('label.w-form-label.fontsize-base.fontweight-semibold[for=\'checkbox\']',
-                                                ' Newsletter do Catarse (semanal)'
+                                                ' Newsletter do Citizen Supported (semanal)'
                                             ),
                                             m('div', [
                                                 'Projetos em destaque e posts do nosso Blog',

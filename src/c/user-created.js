@@ -60,7 +60,7 @@ const userCreated = {
                             m('.w-col.w-col-3'),
                             m('.w-col.w-col-6', [
                                 m('.fontsize-large.u-marginbottom-30',
-                                    'O que você está esperando para tirar seu projeto do papel aqui no Catarse?'),
+                                    'O que você está esperando para tirar seu projeto do papel aqui no Citizen Supported?'),
                                 m('.w-row', [
                                     m('.w-col.w-col-3'),
                                     m('.w-col.w-col-6',

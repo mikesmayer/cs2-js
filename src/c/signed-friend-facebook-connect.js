@@ -21,10 +21,10 @@ const SignedFriendFacebookConnect = {
                     m('.w-row', [
                         m('.w-col.w-col-8', [
                             m('.fontsize-largest.u-marginbottom-20', 'Encontre projetos incríveis junto com seus amigos'),
-                            m('.fontsize-small', 'O universo do Catarse junto com a sua rede do Facebook te farão descobrir projetos incríveis!')
+                            m('.fontsize-small', 'O universo do Citizen Supported junto com a sua rede do Facebook te farão descobrir projetos incríveis!')
                         ]),
                         m('.w-col.w-col-4.u-text-center', [
-                            m('.fontsize-smallest.u-marginbottom-10', `${total} dos seus amigos estão no Catarse!`),
+                            m('.fontsize-smallest.u-marginbottom-10', `${total} dos seus amigos estão no Citizen Supported!`),
                             m('.u-marginbottom-20', [
                                 _.map(ctrl.mapWithAvatar(), item => m(`img.thumb.small.u-round.u-marginbottom-10[src="${item.avatar}"]`)),
                             ]),

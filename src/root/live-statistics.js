@@ -35,7 +35,7 @@ const liveStatistics = {
                 ]),
                 m('.fontcolor-negative.u-marginbottom-60', [
                     m('.fontsize-megajumbo.fontweight-semibold', stat.total_contributors),
-                    m('.fontsize-large', 'Pessoas já apoiaram pelo menos 1 projeto no Catarse')
+                    m('.fontsize-large', 'Pessoas já apoiaram pelo menos 1 projeto no Citizen Supported')
                 ])
             ])), (!_.isEmpty(data) ? m('.w-container', [
                 m('div', [

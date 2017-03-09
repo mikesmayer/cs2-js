@@ -52,7 +52,7 @@ const projectsExplore = {
                 if (currentFilter().keyName === 'all') {
                     hasHint = true;
                     hintText = 'Ordenados por popularidade ';
-                    tooltipText = 'O nosso fator popularidade é uma mistura da seleção do time do Catarse com um valor que é calculado pela velocidade de arrecadação do projeto';
+                    tooltipText = 'O nosso fator popularidade é uma mistura da seleção do time do Citizen Supported com um valor que é calculado pela velocidade de arrecadação do projeto';
                 } else if (currentFilter().keyName === 'finished') {
                     hasHint = true;
                     hintText = 'Ordenados por R$ alcançado ';
@@ -311,7 +311,7 @@ const projectsExplore = {
                                 : 'https://daks2k3a4ib2z.cloudfront.net/54b440b85608e3f4389db387/56f4414d3a0fcc0124ec9a24_icon-launch-explore.png'
                     }),
                     m('h2.fontsize-larger.u-marginbottom-60',
-                        hasSpecialFooter ? ctrl.externalLinkCategories[categoryId()].title : 'Lance sua campanha no Catarse!'),
+                        hasSpecialFooter ? ctrl.externalLinkCategories[categoryId()].title : 'Lance sua campanha no Citizen Supported!'),
                     m('.w-row', [
                         m('.w-col.w-col-4.w-col-push-4', [
                             hasSpecialFooter

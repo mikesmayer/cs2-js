@@ -84,7 +84,7 @@ const publish = {
                           ' ',
                           m('span.fontweight-semibold', 'Regras da modalidade FLEX')
                       ]),
-                      m('div', 'Você escolheu a campanha flexível. Dessa maneira, você irá receber todos os recursos arrecadados junto aos apoiadores ao final do prazo da campanha (descontando a taxa do Catarse) e deverá cumprir com a execução do projeto e com a entrega das recompensas oferecidas independente do quanto arrecadar.')
+                      m('div', 'Você escolheu a campanha flexível. Dessa maneira, você irá receber todos os recursos arrecadados junto aos apoiadores ao final do prazo da campanha (descontando a taxa do Citizen Supported) e deverá cumprir com a execução do projeto e com a entrega das recompensas oferecidas independente do quanto arrecadar.')
                   ]),
                   m('.w-col.w-col-11', [
                       m('div', [
@@ -119,15 +119,15 @@ const publish = {
                           ' ',
                           m('span.fontweight-semibold', 'Prazo para repasse')
                       ]),
-                      m('div', m.trust('Quando o prazo do seu projeto chegar ao fim, você deverá confirmar seus dados bancários. Você poderá alterar o Banco, Conta e a Agência <strong>somente se a nova conta cadastrada for de sua titularidade</strong>. Após a confirmação, o Catarse depositará na sua conta corrente em até 10 dias úteis. O valor depositado já estará considerando o desconto de 13% da taxa.'))
+                      m('div', m.trust('Quando o prazo do seu projeto chegar ao fim, você deverá confirmar seus dados bancários. Você poderá alterar o Banco, Conta e a Agência <strong>somente se a nova conta cadastrada for de sua titularidade</strong>. Após a confirmação, o Citizen Supported depositará na sua conta corrente em até 10 dias úteis. O valor depositado já estará considerando o desconto de 13% da taxa.'))
                   ]),
                   m('.w-col.w-col-11', [
                       m('div', [
                           m('span.fontsize-smallest.fontcolor-secondary', '7/9'),
                           ' ',
-                          m('span.fontweight-semibold', 'Responsabilidade do Catarse')
+                          m('span.fontweight-semibold', 'Responsabilidade do Citizen Supported')
                       ]),
-                      [m('div', [m('span.fontweight-semibold'), m('span.fontweight-semibold', 'O Catarse é responsável:'), ' pelo desenvolvimento tecnológico da plataforma, atendimento de dúvidas e problemas (tanto de apoiadores quanto de realizadores), por hospedar o projeto na plataforma e por garantir a segurança das transações financeiras.\ ', m('br'), m('br'), m('span.fontweight-semibold', 'O Catarse não é responsável:'), ' pelo financiamento, divulgação e execução, nem pela entrega de recompensas dos projetos inscritos.'])]
+                      [m('div', [m('span.fontweight-semibold'), m('span.fontweight-semibold', 'O Citizen Supported é responsável:'), ' pelo desenvolvimento tecnológico da plataforma, atendimento de dúvidas e problemas (tanto de apoiadores quanto de realizadores), por hospedar o projeto na plataforma e por garantir a segurança das transações financeiras.\ ', m('br'), m('br'), m('span.fontweight-semibold', 'O Citizen Supported não é responsável:'), ' pelo financiamento, divulgação e execução, nem pela entrega de recompensas dos projetos inscritos.'])]
                   ]),
                   m('.w-col.w-col-11', [
                       m('div', [
@@ -202,7 +202,7 @@ const publish = {
                           ' ',
                           m('span', { style: { 'font-weight': ' 600' } }, 'Prazo da campanha')
                       ]),
-                      m('div', `Seu projeto estará em arrecadação no Catarse até o dia ${h.momentify(ctrl.expiresAt())} às 23h59min59s. Este prazo não poderá ser alterado após a publicação do projeto.`)
+                      m('div', `Seu projeto estará em arrecadação no Citizen Supported até o dia ${h.momentify(ctrl.expiresAt())} às 23h59min59s. Este prazo não poderá ser alterado após a publicação do projeto.`)
                   ]),
 
                   m('.w-col.w-col-11', [
@@ -211,7 +211,7 @@ const publish = {
                           ' ',
                           m('span', { style: { 'font-weight': ' 600' } }, 'Regras do repasse e reembolso'),
                           m('div', [
-                              m.trust('Quando o prazo do seu projeto chegar ao fim, você deverá confirmar seus dados bancários. Você poderá alterar o Banco, Conta e a Agência <strong>somente se a nova conta cadastrada for de sua titularidade</strong>. Após essa confirmação, o Catarse depositará o valor arrecadado, já descontada a taxa, na sua conta em 10 dias úteis. Caso o projeto não atinja 100% da meta dentro do prazo, o Catarse irá reembolsar os apoiadores. <a href="http://suporte.citizensupported.org/hc/pt-br/articles/202365507" target="blank">Saiba mais sobre o processo de reembolso</a>')
+                              m.trust('Quando o prazo do seu projeto chegar ao fim, você deverá confirmar seus dados bancários. Você poderá alterar o Banco, Conta e a Agência <strong>somente se a nova conta cadastrada for de sua titularidade</strong>. Após essa confirmação, o Citizen Supported depositará o valor arrecadado, já descontada a taxa, na sua conta em 10 dias úteis. Caso o projeto não atinja 100% da meta dentro do prazo, o Citizen Supported irá reembolsar os apoiadores. <a href="http://suporte.citizensupported.org/hc/pt-br/articles/202365507" target="blank">Saiba mais sobre o processo de reembolso</a>')
                           ])
                       ]),
                       m('div', '')
@@ -222,9 +222,9 @@ const publish = {
                       m('div', [
                           m('span.fontsize-smallest.fontcolor-secondary', '7/9'),
                           ' ',
-                          m('span', { style: { 'font-weight': ' 600' } }, 'Responsabilidade do Catarse')
+                          m('span', { style: { 'font-weight': ' 600' } }, 'Responsabilidade do Citizen Supported')
                       ]),
-                      [m('div', [m('span.fontweight-semibold'), m('span.fontweight-semibold', 'O Catarse é responsável:'), ' pelo desenvolvimento tecnológico da plataforma, atendimento de dúvidas e problemas (tanto de apoiadores quanto de realizadores), por hospedar o projeto na plataforma e por garantir a segurança das transações financeiras.\ ', m('br'), m('br'), m('span.fontweight-semibold', 'O Catarse não é responsável:'), ' pelo financiamento, divulgação e execução, nem pela entrega de recompensas dos projetos inscritos.'])]]),
+                      [m('div', [m('span.fontweight-semibold'), m('span.fontweight-semibold', 'O Citizen Supported é responsável:'), ' pelo desenvolvimento tecnológico da plataforma, atendimento de dúvidas e problemas (tanto de apoiadores quanto de realizadores), por hospedar o projeto na plataforma e por garantir a segurança das transações financeiras.\ ', m('br'), m('br'), m('span.fontweight-semibold', 'O Citizen Supported não é responsável:'), ' pelo financiamento, divulgação e execução, nem pela entrega de recompensas dos projetos inscritos.'])]]),
 
                   m('.w-col.w-col-11', [
                       m('div', [
@@ -304,7 +304,7 @@ const publish = {
                             m('.w-row', [
                                 m('.w-col.w-col-2'),
                                 m('.w-col.w-col-8', [
-                                    m('.fontsize-small', ['Antes de publicar, clique nos círculos abaixo e confirme que você está ciente de como funciona o Catarse. Qualquer dúvida, ', m('a.alt-link[href="http://suporte.citizensupported.org/hc/pt-br/requests/new"][target="_blank"]', 'entre em contato'), '!'])
+                                    m('.fontsize-small', ['Antes de publicar, clique nos círculos abaixo e confirme que você está ciente de como funciona o Citizen Supported. Qualquer dúvida, ', m('a.alt-link[href="http://suporte.citizensupported.org/hc/pt-br/requests/new"][target="_blank"]', 'entre em contato'), '!'])
                                 ]),
                                 m('.w-col.w-col-2')
                             ])

@@ -70,7 +70,7 @@ const userPrivateContributed = {
                         m('.fontsize-large.u-marginbottom-30', [
                             'Você ainda não apoiou nenhum projeto no',
                             m.trust('&nbsp;'),
-                            'Catarse...'
+                            'Citizen Supported...'
                         ]),
                         m('.w-row', [
                             m('.w-col.w-col-3'),

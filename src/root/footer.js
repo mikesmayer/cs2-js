@@ -29,7 +29,7 @@ const footer = {
                                                     ' Como funciona'
                                                 ),
                                                 m('a.link-footer[href=\'https://www.citizensupported.org/en/flex?ref=ctrse_footer\']',
-                                                    ' Catarse flex'
+                                                    ' Citizen Supported flex'
                                                 ),
                                                 m('a.link-footer[href=\'https://www.citizensupported.org/en/team?ref=ctrse_footer\']',
                                                     [
@@ -99,7 +99,7 @@ const footer = {
                                                 ),
                                                 m('a.u-marginbottom-30.link-footer[href=\'http://crowdfunding.citizensupported.org/financiamento-coletivo-musica-independente?ref=ctrse_footer\']',
                                                     [
-                                                        'Música no Catarse!',
+                                                        'Música no Citizen Supported!',
                                                         m.trust('&nbsp;'),
                                                         m('span.badge.badge-success',
                                                             'Novidade‍'

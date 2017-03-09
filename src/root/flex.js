@@ -120,7 +120,7 @@ const Flex = {
                             m('.w-col.w-col-6', [
                                 m.component(landingQA, {
                                     question: 'Quais são as taxas da modalidade flexível? ',
-                                    answer: 'Como no Catarse, enviar um projeto não custa nada! A taxa cobrada no serviço Catarse flex é de 13% sobre o valor arrecadado.'
+                                    answer: 'Como no Citizen Supported, enviar um projeto não custa nada! A taxa cobrada no serviço Citizen Supported flex é de 13% sobre o valor arrecadado.'
                                 }),
                                 m.component(landingQA, {
                                     question: 'De onde vem o dinheiro do meu projeto?',
@@ -128,7 +128,7 @@ const Flex = {
                                 }),
                                 m.component(landingQA, {
                                     question: 'Qual a diferença entre o flexível e o "tudo ou nada"?',
-                                    answer: 'Atualmente o Catarse utiliza apenas o modelo "tudo ou nada", onde você só fica com o dinheiro se bater a meta de arrecadação dentro do prazo da campanha. O modelo flexível é diferente pois permite que o realizador fique com o que arrecadar, independente de atingir ou não a meta do projeto no prazo da campanha. Não haverá limite de tempo para as campanhas. Nosso sistema flexível será algo novo em relação aos modelos que existem atualmente no mercado.'
+                                    answer: 'Atualmente o Citizen Supported utiliza apenas o modelo "tudo ou nada", onde você só fica com o dinheiro se bater a meta de arrecadação dentro do prazo da campanha. O modelo flexível é diferente pois permite que o realizador fique com o que arrecadar, independente de atingir ou não a meta do projeto no prazo da campanha. Não haverá limite de tempo para as campanhas. Nosso sistema flexível será algo novo em relação aos modelos que existem atualmente no mercado.'
                                 }),
                             ]), m('.w-col.w-col-6', [
                                 m.component(landingQA, {
@@ -136,11 +136,11 @@ const Flex = {
                                     answer: 'Sim. Cadastre seu email e saiba como inscrever o seu projeto no flex!'
                                 }),
                                 m.component(landingQA, {
-                                    question: 'Por quê vocês querem fazer o Catarse flex?',
-                                    answer: 'Acreditamos que o ambiente do crowdfunding brasileiro ainda tem espaço para muitas ações, testes e experimentações para entender de fato o que as pessoas precisam. Sonhamos com tornar o financiamento coletivo um hábito no Brasil. O Catarse flex é mais um passo nessa direção.'
+                                    question: 'Por quê vocês querem fazer o Citizen Supported flex?',
+                                    answer: 'Acreditamos que o ambiente do crowdfunding brasileiro ainda tem espaço para muitas ações, testes e experimentações para entender de fato o que as pessoas precisam. Sonhamos com tornar o financiamento coletivo um hábito no Brasil. O Citizen Supported flex é mais um passo nessa direção.'
                                 }),
                                 m.component(landingQA, {
-                                    question: 'Quando vocês irão lançar o Catarse flex?',
+                                    question: 'Quando vocês irão lançar o Citizen Supported flex?',
                                     answer: 'Ainda não sabemos quando abriremos o flex para o público em geral, mas você pode cadastrar seu email nessa página e receber um material especial de como inscrever seu projeto.'
                                 })
                             ])
@@ -159,23 +159,23 @@ const Flex = {
                     ])
                 ]), m('.w-section.section-one-column.bg-catarse-zelo.section-large[style="min-height: 50vh;"]', [
                     m('.w-container.u-text-center', [
-                        m('.w-editable.u-marginbottom-40.fontsize-larger.lineheight-tight.fontcolor-negative', 'O flex é um experimento e iniciativa do Catarse, maior plataforma de crowdfunding do Brasil.'),
+                        m('.w-editable.u-marginbottom-40.fontsize-larger.lineheight-tight.fontcolor-negative', 'O flex é um experimento e iniciativa do Citizen Supported, maior plataforma de crowdfunding do Brasil.'),
                         m('.w-row.u-text-center', (ctrl.statsLoader()) ? h.loader() : [
                             m('.w-col.w-col-4', [
-                                m('.fontsize-jumbo.text-success.lineheight-loose', h.formatNumber(stats.total_contributors, 0, 3)), m('p.start-stats.fontsize-base.fontcolor-negative', 'Pessoas ja apoiaram pelo menos 01 projeto no Catarse')
+                                m('.fontsize-jumbo.text-success.lineheight-loose', h.formatNumber(stats.total_contributors, 0, 3)), m('p.start-stats.fontsize-base.fontcolor-negative', 'Pessoas ja apoiaram pelo menos 01 projeto no Citizen Supported')
                             ]),
                             m('.w-col.w-col-4', [
-                                m('.fontsize-jumbo.text-success.lineheight-loose', h.formatNumber(stats.total_projects_success, 0, 3)), m('p.start-stats.fontsize-base.fontcolor-negative', 'Projetos ja foram financiados no Catarse')
+                                m('.fontsize-jumbo.text-success.lineheight-loose', h.formatNumber(stats.total_projects_success, 0, 3)), m('p.start-stats.fontsize-base.fontcolor-negative', 'Projetos ja foram financiados no Citizen Supported')
                             ]),
                             m('.w-col.w-col-4', [
-                                m('.fontsize-jumbo.text-success.lineheight-loose', `${stats.total_contributed.toString().slice(0, 2)} milhões`), m('p.start-stats.fontsize-base.fontcolor-negative', 'Foram investidos em ideias publicadas no Catarse')
+                                m('.fontsize-jumbo.text-success.lineheight-loose', `${stats.total_contributed.toString().slice(0, 2)} milhões`), m('p.start-stats.fontsize-base.fontcolor-negative', 'Foram investidos em ideias publicadas no Citizen Supported')
                             ])
                         ])
                     ])
                 ]),
                 m('.w-section.section.bg-blue-one.fontcolor-negative', [
                     m('.w-container', [
-                        m('.fontsize-large.u-text-center.u-marginbottom-20', 'Recomende o Catarse flex para amigos! '),
+                        m('.fontsize-large.u-text-center.u-marginbottom-20', 'Recomende o Citizen Supported flex para amigos! '),
                         m('.w-row', [
                             m('.w-col.w-col-2'),
                             m('.w-col.w-col-8', [
@@ -183,13 +183,13 @@ const Flex = {
                                     m('.w-col.w-col-6.w-col-small-6.w-col-tiny-6.w-sub-col-middle', [
                                         m('div', [
                                             m('img.icon-share-mobile[src=\'https://daks2k3a4ib2z.cloudfront.net/54b440b85608e3f4389db387/53a3f66e05eb6144171d8edb_facebook-xxl.png\']'),
-                                            m(`a.w-button.btn.btn-large.btn-fb[href="http://www.facebook.com/sharer/sharer.php?u=https://www.citizensupported.org/flex?ref=facebook&title=${encodeURIComponent('Conheça o novo Catarse Flex!')}"][target="_blank"]`, 'Compartilhar')
+                                            m(`a.w-button.btn.btn-large.btn-fb[href="http://www.facebook.com/sharer/sharer.php?u=https://www.citizensupported.org/flex?ref=facebook&title=${encodeURIComponent('Conheça o novo Citizen Supported Flex!')}"][target="_blank"]`, 'Compartilhar')
                                         ])
                                     ]),
                                     m('.w-col.w-col-6.w-col-small-6.w-col-tiny-6', [
                                         m('div', [
                                             m('img.icon-share-mobile[src=\'https://daks2k3a4ib2z.cloudfront.net/54b440b85608e3f4389db387/53a3f65105eb6144171d8eda_twitter-256.png\']'),
-                                            m(`a.w-button.btn.btn-large.btn-tweet[href="https://twitter.com/intent/tweet?text=${encodeURIComponent('Vamos construir uma nova modalidade de crowdfunding para o Catarse! Junte-se a nós, inscreva seu email!')}https://www.citizensupported.org/flex?ref=twitter"][target="_blank"]`, 'Tuitar')
+                                            m(`a.w-button.btn.btn-large.btn-tweet[href="https://twitter.com/intent/tweet?text=${encodeURIComponent('Vamos construir uma nova modalidade de crowdfunding para o Citizen Supported! Junte-se a nós, inscreva seu email!')}https://www.citizensupported.org/flex?ref=twitter"][target="_blank"]`, 'Tuitar')
                                         ])
                                     ])
                                 ])

@@ -109,7 +109,7 @@ const projectContributions = {
                                   `${Math.floor(stats.new_percent)}%`
                                  ),
                                 m('.fontsize-smallest',
-                                  'apoiadores que nunca tinham apoiado um projeto no Catarse'
+                                  'apoiadores que nunca tinham apoiado um projeto no Citizen Supported'
                                  )
                             ]),
                             m('.w-col.w-col-6.w-col-small-6', [
@@ -121,7 +121,7 @@ const projectContributions = {
                                   `${Math.ceil(stats.returning_percent)}%`
                                  ),
                                 m('.fontsize-smallest',
-                                  'apoiadores que já tinham apoiado um projeto no Catarse'
+                                  'apoiadores que já tinham apoiado um projeto no Citizen Supported'
                                  )
                             ])
                         ])
