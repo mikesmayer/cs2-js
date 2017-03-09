@@ -4,7 +4,7 @@ import babel from 'rollup-plugin-babel';
 //With rollup installed globally in your environment, you can simple run rollup -c.
 export default {
   entry: 'src/c.js',
-  dest: 'dist/catarse.js',
+  dest: 'dist/cs2.js',
   sourceMap: true,
   format: 'iife',
   moduleName: 'c',

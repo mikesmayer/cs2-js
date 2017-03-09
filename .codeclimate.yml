@@ -4,5 +4,5 @@ languages:
   PHP: true
   Python: true
 exclude_paths:
-- "dist/catarse.js"
-- "dist/catarse.min.js"
+- "dist/cs2.js"
+- "dist/cs2.min.js"

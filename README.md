@@ -1,4 +1,4 @@
-#cs2.js [![Circle CI](https://circleci.com/gh/catarse/catarse.js/tree/master.svg?style=svg)](https://circleci.com/gh/catarse/catarse.js/tree/master) [![Code Climate](https://codeclimate.com/github/catarse/catarse.js/badges/gpa.svg)](https://codeclimate.com/github/catarse/catarse.js)
+#cs2.js [![Circle CI](https://circleci.com/gh/mikesmayer/cs2.js/tree/master.svg?style=svg)](https://circleci.com/gh/mikesmayer/cs2.js/tree/master) [![Code Climate](https://codeclimate.com/github/mikesmayer/cs2.js/badges/gpa.svg)](https://codeclimate.com/github/mikesmayer/cs2.js)
 
 # Mithril components for the Catarse world
 
@@ -6,13 +6,13 @@ A set of mithril components to use accross [catarse](https://github.com/catarse/
 
 ## Development
 
-To start developing components to catarse.js you'll first have to globally install [gulp](http://gulpjs.com/), [bower](http://bower.io/) and [npm](https://www.npmjs.com/). 
+To start developing components to cs2.js you'll first have to globally nstall [gulp](http://gulpjs.com/), [bower](http://bower.io/) and [npm](https://www.npmjs.com/). 
 
 Then, install all the project package dependencies by calling ```npm install && bower install```.
 
 Application build dependencies are described on `bower.json`, while dev dependencies are described on `package.json`.
 
-Catarse.js uses gulp as build tool. To start developing just run `gulp` and gulp will start watching your source files for changes and running build when those happen. 
+cs2.js uses gulp as build tool. To start developing just run `gulp` and gulp will start watching your source files for changes and running build when those happen. 
 
 To watch source files without running through testing tasks, run:
 ```gulp --notest```
@@ -23,10 +23,10 @@ To watch source files without running testing or linting tasks, run:
 To trigger a build cycle without watching files, run:
 ```gulp build```
 
-To link catarse.js with catarse, run:
+To link cs2.js with cs2, run:
 ```bower link```
-Then, in you catarse repository, run:
-```bower link catarse.js```
+Then, in you cs2 repository, run:
+```bower link cs2.js```
 
 ## Flowtype && ES6
 
