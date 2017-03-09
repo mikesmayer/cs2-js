@@ -769,7 +769,7 @@ const userSettings = {
                                        )
                                   ]);
                               })),
-                              m('form.w-hidden', {action: `/pt/users/${user.id}/credit_cards/${ctrl.toDeleteCard()}`, method: 'POST', config: ctrl.setCardDeletionForm}, [
+                              m('form.w-hidden', {action: `/en/users/${user.id}/credit_cards/${ctrl.toDeleteCard()}`, method: 'POST', config: ctrl.setCardDeletionForm}, [
                                   m('input[name=\'utf8\'][type=\'hidden\'][value=\'✓\']'),
                                   m('input[name=\'_method\'][type=\'hidden\'][value=\'delete\']'),
                                   m(`input[name='authenticity_token'][type='hidden'][value='${h.authenticityToken()}']`),

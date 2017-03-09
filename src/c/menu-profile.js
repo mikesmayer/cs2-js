@@ -55,17 +55,17 @@ const menuProfile = {
                                         m('ul.w-list-unstyled.u-marginbottom-20',
                                             [
                                                 m('li.lineheight-looser',
-                                                    m(`a.alt-link.fontsize-smaller[href='/pt/users/${user.id}/edit#contributions']`,
+                                                    m(`a.alt-link.fontsize-smaller[href='/en/users/${user.id}/edit#contributions']`,
                                                         'Histórico de apoio'
                                                     )
                                                 ),
                                                 m('li.lineheight-looser',
-                                                  m(`a.alt-link.fontsize-smaller[href='/pt/users/${user.id}/edit#projects']`,
+                                                  m(`a.alt-link.fontsize-smaller[href='/en/users/${user.id}/edit#projects']`,
                                                     'Projetos criados'
                                                    )
                                                  ),
                                                 m('li.w-hidden-main.w-hidden-medium.lineheight-looser',
-                                                    m(`a.alt-link.fontsize-smaller[href='/pt/users/${user.id}/edit#projects']`,
+                                                    m(`a.alt-link.fontsize-smaller[href='/en/users/${user.id}/edit#projects']`,
                                                         'Projetos criados'
                                                     )
                                                 )
@@ -84,17 +84,17 @@ const menuProfile = {
                                                   m('span.badge.badge-success', 'Novidade')
                                                  ),
                                                 m('li.lineheight-looser',
-                                                    m(`a.alt-link.fontsize-smaller[href='/pt/users/${user.id}/edit#about_me']`,
+                                                    m(`a.alt-link.fontsize-smaller[href='/en/users/${user.id}/edit#about_me']`,
                                                         'Perfil público'
                                                     )
                                                 ),
                                                 m('li.lineheight-looser',
-                                                    m(`a.alt-link.fontsize-smaller[href='/pt/users/${user.id}/edit#notifications']`,
+                                                    m(`a.alt-link.fontsize-smaller[href='/en/users/${user.id}/edit#notifications']`,
                                                         'Notificações'
                                                     )
                                                 ),
                                                 m('li.lineheight-looser',
-                                                    m(`a.alt-link.fontsize-smaller[href='/pt/users/${user.id}/edit#settings']`,
+                                                    m(`a.alt-link.fontsize-smaller[href='/en/users/${user.id}/edit#settings']`,
                                                         `Dados cadastrais`
                                                     )
                                                 )
@@ -107,27 +107,27 @@ const menuProfile = {
                                         args.user.is_admin_role ? m('ul.w-list-unstyled.u-marginbottom-20',
                                             [
                                                 m('li.lineheight-looser',
-                                                    m('a.alt-link.fontsize-smaller[href=\'/pt/new-admin#/users\']',
+                                                    m('a.alt-link.fontsize-smaller[href=\'/en/new-admin#/users\']',
                                                         'Usuários'
                                                     )
                                                 ),
                                                 m('li.lineheight-looser',
-                                                    m('a.alt-link.fontsize-smaller[href=\'/pt/new-admin\']',
+                                                    m('a.alt-link.fontsize-smaller[href=\'/en/new-admin\']',
                                                         'Apoios'
                                                     )
                                                 ),
                                                 m('li.lineheight-looser',
-                                                    m('a.alt-link.fontsize-smaller[href=\'/pt/admin/financials\']',
+                                                    m('a.alt-link.fontsize-smaller[href=\'/en/admin/financials\']',
                                                         'Rel. Financeiros'
                                                     )
                                                 ),
                                                 m('li.lineheight-looser',
-                                                    m('a.alt-link.fontsize-smaller[href=\'/pt/admin/projects\']',
+                                                    m('a.alt-link.fontsize-smaller[href=\'/en/admin/projects\']',
                                                         'Admin projetos'
                                                     )
                                                 ),
                                                 m('li.lineheight-looser',
-                                                    m('a.alt-link.fontsize-smaller[href=\'/pt/dbhero\']',
+                                                    m('a.alt-link.fontsize-smaller[href=\'/en/dbhero\']',
                                                         'Dataclips'
                                                     )
                                                 )
@@ -136,10 +136,10 @@ const menuProfile = {
                                         m('.fontsize-mini', 'Seu e-mail de cadastro é: '),
                                         m('.fontsize-smallest.u-marginbottom-20', [
                                             m('span.fontweight-semibold', `${user.email} `),
-                                            m(`a.alt-link[href='/pt/users/${user.id}/edit#about_me']`, 'alterar e-mail')
+                                            m(`a.alt-link[href='/en/users/${user.id}/edit#about_me']`, 'alterar e-mail')
                                         ]),
                                         m('.divider.u-marginbottom-20'),
-                                        m('a.alt-link[href=\'/pt/logout\']',
+                                        m('a.alt-link[href=\'/en/logout\']',
                                             'Sair'
                                         )
                                     ]
@@ -162,7 +162,7 @@ const menuProfile = {
                                 //                        name: contribution.project_name
                                 //                    };
                                 //                })),
-                                //                loadMoreHref: '/pt/users/${user.id}/edit#contributions',
+                                //                loadMoreHref: '/en/users/${user.id}/edit#contributions',
                                 //                ref: 'user_menu_my_contributions'
                                 //            }) : 'carregando...'
                                 //        )
@@ -177,7 +177,7 @@ const menuProfile = {
                                 //            _.isEmpty(ctrl.latestProjects) ? 'Nenhum projeto.' :
                                 //            m.component(quickProjectList, {
                                 //                projects: ctrl.latestProjects,
-                                //                loadMoreHref: '/pt/users/${user.id}/edit#contributions',
+                                //                loadMoreHref: '/en/users/${user.id}/edit#contributions',
                                 //                ref: 'user_menu_my_projects'
                                 //            }) : 'carregando...'
                                 //        )

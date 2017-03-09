@@ -401,7 +401,7 @@ const
     },
 
     navigateToDevise = () => {
-        window.location.href = '/pt/login';
+        window.location.href = '/en/login';
         return false;
     },
 

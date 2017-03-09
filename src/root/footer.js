@@ -28,10 +28,10 @@ const footer = {
                                                 m('a.link-footer[href=\'http://crowdfunding.catarse.me/paratodos?ref=ctrse_footer\']',
                                                     ' Como funciona'
                                                 ),
-                                                m('a.link-footer[href=\'https://www.catarse.me/pt/flex?ref=ctrse_footer\']',
+                                                m('a.link-footer[href=\'https://www.catarse.me/en/flex?ref=ctrse_footer\']',
                                                     ' Catarse flex'
                                                 ),
-                                                m('a.link-footer[href=\'https://www.catarse.me/pt/team?ref=ctrse_footer\']',
+                                                m('a.link-footer[href=\'https://www.catarse.me/en/team?ref=ctrse_footer\']',
                                                     [
                                                         ' Nosso time ',
                                                         m.trust('&lt;'),
@@ -53,7 +53,7 @@ const footer = {
                                                 m('a.link-footer[href=\'http://blog.citizensupported.org\']',
                                                     ' Blog'
                                                 ),
-                                                m('a.link-footer[href=\'https://www.catarse.me/pt/jobs\']',
+                                                m('a.link-footer[href=\'https://www.catarse.me/en/jobs\']',
                                                     ' Trabalhe conosco'
                                                 )
                                             ]
@@ -69,22 +69,22 @@ const footer = {
                                                 m('a.link-footer[href=\'http://crowdfunding.catarse.me/nossa-taxa?ref=ctrse_footer\']',
                                                     ' Nossa Taxa'
                                                 ),
-                                                m('a.link-footer[href=\'https://www.catarse.me/pt/press?ref=ctrse_footer\']',
+                                                m('a.link-footer[href=\'https://www.catarse.me/en/press?ref=ctrse_footer\']',
                                                     ' Imprensa'
                                                 ),
                                                 m('a.link-footer[href=\'http://suporte.catarse.me?ref=ctrse_footer/\']',
                                                     ' Central de Suporte'
                                                 ),
-                                                m('a.link-footer[href=\'https://www.catarse.me/pt/guides?ref=ctrse_footer\']',
+                                                m('a.link-footer[href=\'https://www.catarse.me/en/guides?ref=ctrse_footer\']',
                                                     ' Guia dos Realizadores'
                                                 ),
                                                 m('a.link-footer[href=\'http://pesquisa.catarse.me/\']',
                                                     ' Retrato FC Brasil 2013/2014'
                                                 ),
-                                                m('a.link-footer[href=\'/pt/terms-of-use\']',
+                                                m('a.link-footer[href=\'/en/terms-of-use\']',
                                                     ' Termos de uso'
                                                 ),
-                                                m('a.link-footer[href=\'/pt/privacy-policy\']',
+                                                m('a.link-footer[href=\'/en/privacy-policy\']',
                                                     ' Política de privacidade'
                                                 )
                                             ]
@@ -94,7 +94,7 @@ const footer = {
                                                 m('.footer-full-signature-text.fontsize-small',
                                                     'Navegue'
                                                 ),
-                                                m('a.w-hidden-small.w-hidden-tiny.link-footer[href=\'/pt/start?ref=ctrse_footer\']',
+                                                m('a.w-hidden-small.w-hidden-tiny.link-footer[href=\'/en/start?ref=ctrse_footer\']',
                                                     ' Comece seu projeto'
                                                 ),
                                                 m('a.u-marginbottom-30.link-footer[href=\'http://crowdfunding.catarse.me/financiamento-coletivo-musica-independente?ref=ctrse_footer\']',
@@ -106,7 +106,7 @@ const footer = {
                                                         )
                                                     ]
                                                 ),
-                                                m('a.link-footer[href=\'/pt/explore?ref=ctrse_footer\']',
+                                                m('a.link-footer[href=\'/en/explore?ref=ctrse_footer\']',
                                                     ' Explore projetos'
                                                 ),
                                                 m('a.w-hidden-main.w-hidden-medium.w-hidden-small.link-footer[href=\'http://blog.citizensupported.org?ref=ctrse_footer\']',
@@ -115,13 +115,13 @@ const footer = {
                                                 m('a.w-hidden-main.w-hidden-medium.w-hidden-small.link-footer[href=\'http://suporte.catarse.me/hc/pt-br/requests/new\']',
                                                     ' Contato'
                                                 ),
-                                                m('a.w-hidden-tiny.link-footer[href=\'/pt/explore?filter=score&ref=ctrse_footer\']',
+                                                m('a.w-hidden-tiny.link-footer[href=\'/en/explore?filter=score&ref=ctrse_footer\']',
                                                     ' Populares'
                                                 ),
-                                                m('a.w-hidden-tiny.link-footer[href=\'/pt/explore?filter=online&ref=ctrse_footer\']',
+                                                m('a.w-hidden-tiny.link-footer[href=\'/en/explore?filter=online&ref=ctrse_footer\']',
                                                     ' No ar'
                                                 ),
-                                                m('a.w-hidden-tiny.link-footer[href=\'/pt/explore?filter=finished&ref=ctrse_footer\']',
+                                                m('a.w-hidden-tiny.link-footer[href=\'/en/explore?filter=finished&ref=ctrse_footer\']',
                                                     ' Finalizados'
                                                 )
                                             ]

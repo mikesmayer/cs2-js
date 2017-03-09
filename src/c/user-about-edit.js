@@ -554,12 +554,12 @@ const userAboutEdit = {
                                                               m('.fontsize-smallest',
                                                                 'Todos os seus apoios serão convertidos em apoios anônimos, seus dados não serão mais visíveis, você sairá automaticamente do sistema e sua conta será desativada permanentemente.'
                                                                ),
-                                                              m(`a.alt-link.fontsize-smaller[href='/pt/users/${user.id}'][rel='nofollow']`, {
+                                                              m(`a.alt-link.fontsize-smaller[href='/en/users/${user.id}'][rel='nofollow']`, {
                                                                   onclick: ctrl.deleteAccount
                                                               },
                                                                 'Desativar minha conta no Catarse'
                                                                ),
-                                                              m('form.w-hidden', { action: `/pt/users/${user.id}`, method: 'post', config: ctrl.setDeleteForm }, [
+                                                              m('form.w-hidden', { action: `/en/users/${user.id}`, method: 'post', config: ctrl.setDeleteForm }, [
                                                                   m(`input[name='authenticity_token'][type='hidden'][value='${h.authenticityToken()}']`),
                                                                   m('input[name=\'_method\'][type=\'hidden\'][value=\'delete\']')
                                                               ])

@@ -85,7 +85,7 @@ const usersEdit = {
                             m(`a.dashboard-nav-link${(ctrl.hash() === '#notifications' ? '.selected' : '')}[data-target='#dashboard_notifications'][href='#notifications'][id='dashboard_notifications_link']`,
                                 'Notificações'
                             ),
-                            m(`a.dashboard-nav-link.u-right-big-only[href='/pt/users/${user.id}']`, {
+                            m(`a.dashboard-nav-link.u-right-big-only[href='/en/users/${user.id}']`, {
                                 config: m.route,
                                 onclick: () => {
                                     m.route(`/users/${user.id}`, {
@@ -93,7 +93,7 @@ const usersEdit = {
                                     });
                                 }
                             },
-                                'Ir para o perfil público'
+                                'Go to your public profile'
                             )
                         ])
                     ),
