@@ -14,115 +14,98 @@ const footer = {
                                         m('.w-col.w-col-4.w-col-small-4.w-col-tiny-4.w-hidden-tiny',
                                             [
                                                 m('.footer-full-signature-text.fontsize-small',
-                                                    'Bem-vindo'
+                                                    'Welcome'
                                                 ),
-                                                m('a.link-footer[href=\'http://ano.citizensupported.org/2016?ref=ctrse_footer\']',
+                                                m('a.link-footer[href=\'/en/start?ref=ctrse_footer\']',
+                                                    ' How it works'
+                                                ),
+                                                m('a.link-footer[href=\'/en/flex?ref=ctrse_footer\']',
                                                     [
-                                                        'Retrospectiva 2016',
-                                                        m.trust('&nbsp;'),
+                                                        ' Citizen Supported flex ',
                                                         m('span.badge.badge-success',
-                                                            'Novidade‍'
+                                                            'New'
                                                         )
                                                     ]
                                                 ),
-                                                m('a.link-footer[href=\'http://crowdfunding.citizensupported.org/paratodos?ref=ctrse_footer\']',
-                                                    ' Como funciona'
-                                                ),
-                                                m('a.link-footer[href=\'https://www.citizensupported.org/en/flex?ref=ctrse_footer\']',
-                                                    ' Citizen Supported flex'
-                                                ),
-                                                m('a.link-footer[href=\'https://www.citizensupported.org/en/team?ref=ctrse_footer\']',
+                                                m('a.link-footer[href=\'/en/team?ref=ctrse_footer\']',
                                                     [
-                                                        ' Nosso time ',
+                                                        ' Our team ',
                                                         m.trust('&lt;'),
                                                         '3'
                                                     ]
                                                 ),
-                                                m('a.link-footer[href=\'http://facebook.com/citizensupported.org\']',
+                                                m('a.link-footer[href=\'/en/jobs?ref=ctrse_footer\']',
+                                                    [
+                                                        ' Jobs ',
+                                                        m('span.badge.badge-success',
+                                                            'Come work with us!'
+                                                        )
+                                                    ]
+                                                ),
+                                                m('a.link-footer[href=\'http://facebook.com/citizensupported\']',
                                                     ' Facebook'
                                                 ),
-                                                m('a.link-footer[href=\'http://twitter.com/catarse\']',
+                                                m('a.link-footer[href=\'http://twitter.com/citizensupported\']',
                                                     ' Twitter'
                                                 ),
-                                                m('a.link-footer[href=\'http://instagram.com/catarse\']',
+                                                m('a.link-footer[href=\'http://instagram.com/citizensupported\']',
                                                     ' Instagram'
                                                 ),
-                                                m('a.link-footer[href=\'http://github.com/catarse/catarse\']',
-                                                    ' Github'
-                                                ),
-                                                m('a.link-footer[href=\'http://blog.citizensupported.org\']',
+                                                m('a.link-footer[href=\'http://blog.citizensupported.org?ref=ctrse_footer\']',
                                                     ' Blog'
-                                                ),
-                                                m('a.link-footer[href=\'https://www.citizensupported.org/en/jobs\']',
-                                                    ' Trabalhe conosco'
                                                 )
                                             ]
                                         ),
                                         m('.w-col.w-col-4.w-col-small-4.w-col-tiny-4.footer-full-firstcolumn',
                                             [
                                                 m('.footer-full-signature-text.fontsize-small',
-                                                    'Ajuda'
+                                                    'Help'
                                                 ),
-                                                m('a.link-footer[href=\'http://suporte.citizensupported.org/hc/pt-br/requests/new\'][target="_BLANK"]',
-                                                    ' Contato'
+                                                m('a.link-footer[href=\'https://citizensupported.zendesk.com/hc/en-us/requests/new\'][target="_BLANK"]',
+                                                    ' Contact'
                                                 ),
-                                                m('a.link-footer[href=\'http://crowdfunding.citizensupported.org/nossa-taxa?ref=ctrse_footer\']',
-                                                    ' Nossa Taxa'
+                                                m('a.link-footer[href=\'https://citizensupported.zendesk.com/hc/en-us/?ref=ctrse_footer/\']',
+                                                    ' Support center'
                                                 ),
-                                                m('a.link-footer[href=\'https://www.citizensupported.org/en/press?ref=ctrse_footer\']',
-                                                    ' Imprensa'
+                                                m('a.link-footer[href=\'https://https://citizensupported.zendesk.com/hc/en-us/?ref=ctrse_footer\']',
+                                                    ' Our Fees & Pricing'
                                                 ),
-                                                m('a.link-footer[href=\'http://suporte.citizensupported.org?ref=ctrse_footer/\']',
-                                                    ' Central de Suporte'
-                                                ),
-                                                m('a.link-footer[href=\'https://www.citizensupported.org/en/guides?ref=ctrse_footer\']',
-                                                    ' Guia dos Realizadores'
-                                                ),
-                                                m('a.link-footer[href=\'http://pesquisa.citizensupported.org/\']',
-                                                    ' Retrato FC Brasil 2013/2014'
+                                                m('a.link-footer[href=\'/en/press?ref=ctrse_footer\']',
+                                                    ' Press'
                                                 ),
                                                 m('a.link-footer[href=\'/en/terms-of-use\']',
-                                                    ' Termos de uso'
+                                                    ' Terms of use'
                                                 ),
                                                 m('a.link-footer[href=\'/en/privacy-policy\']',
-                                                    ' Política de privacidade'
+                                                    ' Privacy policy'
                                                 )
                                             ]
                                         ),
                                         m('.w-col.w-col-4.w-col-small-4.w-col-tiny-4.footer-full-lastcolumn',
                                             [
                                                 m('.footer-full-signature-text.fontsize-small',
-                                                    'Navegue'
+                                                    'Browse'
                                                 ),
                                                 m('a.w-hidden-small.w-hidden-tiny.link-footer[href=\'/en/start?ref=ctrse_footer\']',
                                                     ' Fund your activism'
                                                 ),
-                                                m('a.u-marginbottom-30.link-footer[href=\'http://crowdfunding.citizensupported.org/financiamento-coletivo-musica-independente?ref=ctrse_footer\']',
-                                                    [
-                                                        'Música no Citizen Supported!',
-                                                        m.trust('&nbsp;'),
-                                                        m('span.badge.badge-success',
-                                                            'Novidade‍'
-                                                        )
-                                                    ]
-                                                ),
                                                 m('a.link-footer[href=\'/en/explore?ref=ctrse_footer\']',
-                                                    ' Explore projetos'
+                                                    ' Explore campaigns'
                                                 ),
                                                 m('a.w-hidden-main.w-hidden-medium.w-hidden-small.link-footer[href=\'http://blog.citizensupported.org?ref=ctrse_footer\']',
                                                     ' Blog'
                                                 ),
-                                                m('a.w-hidden-main.w-hidden-medium.w-hidden-small.link-footer[href=\'http://suporte.citizensupported.org/hc/pt-br/requests/new\']',
-                                                    ' Contato'
+                                                m('a.w-hidden-main.w-hidden-medium.w-hidden-small.link-footer[href=\'https://citizensupported.zendesk.com/hc/en-us/requests/new\']',
+                                                    ' Contact'
                                                 ),
                                                 m('a.w-hidden-tiny.link-footer[href=\'/en/explore?filter=score&ref=ctrse_footer\']',
-                                                    ' Populares'
+                                                    ' Popular'
                                                 ),
                                                 m('a.w-hidden-tiny.link-footer[href=\'/en/explore?filter=online&ref=ctrse_footer\']',
-                                                    ' No ar'
+                                                    ' New'
                                                 ),
                                                 m('a.w-hidden-tiny.link-footer[href=\'/en/explore?filter=finished&ref=ctrse_footer\']',
-                                                    ' Finalizados'
+                                                    ' Ending Soon'
                                                 )
                                             ]
                                         )
@@ -132,13 +115,13 @@ const footer = {
                             m('.w-col.w-col-3.column-social-media-footer',
                                 [
                                     m('.footer-full-signature-text.fontsize-small',
-                                        'Assine nossa news'
+                                        'Get our newsletter'
                                     ),
                                     m('.w-form',
                                         m(`form[accept-charset='UTF-8'][action='${h.getMailchimpUrl()}'][id='mailee-form'][method='post']`,
                                             [
                                                 m('.w-form.footer-newsletter',
-                                                    m('input.w-input.text-field.prefix[id=\'EMAIL\'][label=\'email\'][name=\'EMAIL\'][placeholder=\'Digite seu email\'][type=\'email\']')
+                                                    m('input.w-input.text-field.prefix[id=\'EMAIL\'][label=\'email\'][name=\'EMAIL\'][placeholder=\'Type your email\'][type=\'email\']')
                                                 ),
                                                 m('button.w-inline-block.btn.btn-edit.postfix.btn-attached[style="padding:0;"]',
                                                     m('img.footer-news-icon[alt=\'Icon newsletter\'][src=\'/assets/catarse_bootstrap/icon-newsletter.png\']')
@@ -160,8 +143,8 @@ const footer = {
                         [
                             m('img.u-marginbottom-20[alt=\'Logo footer\'][src=\'/assets/logo-footer.png\']'),
                             m('.lineheight-loose',
-                                m('a.link-footer-inline[href=\'http://github.com/catarse/catarse\']',
-                                   ` Feito com amor | ${new Date().getFullYear()} | Open source`
+                                m('a.link-footer-inline[href=\'http://github.com/citizensupported/citizensupported\']',
+                                   ` Made with love | ${new Date().getFullYear()} | Open source`
                                 )
                             )
                         ]
