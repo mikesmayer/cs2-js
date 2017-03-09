@@ -109,10 +109,10 @@ gulp.task('dist', function(done){
     .pipe(buffer())
     .pipe(sourcemaps.init({loadMaps: true}))
     .pipe(sourcemaps.write())
-    .pipe(rename('catarse.js'))
+    .pipe(rename('cs2.js'))
     .pipe(gulp.dest('dist'))
     .pipe($.if(!argv.fast, uglify()))
-    .pipe(rename('catarse.min.js'))
+    .pipe(rename('cs2.min.js'))
     .pipe(gulp.dest('dist'))
     .on('end', done);
 });
