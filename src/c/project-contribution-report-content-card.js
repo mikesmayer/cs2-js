@@ -74,11 +74,11 @@ const projectContributionReportContentCard = {
                     m('.w-inline-block',
                         m('.w-checkbox.w-clearfix',
                             (contribution.delivery_status !== 'received' && project.state !== 'failed' ?
-                            m('input.w-checkbox-input[type=\'checkbox\']', {
-                                checked: ctrl.checked(contribution),
-                                value: contribution.id,
-                                onclick: () => ctrl.selectContribution(contribution)
-                            }) : '')
+                                m('input.w-checkbox-input[type=\'checkbox\']', {
+                                    checked: ctrl.checked(contribution),
+                                    value: contribution.id,
+                                    onclick: () => ctrl.selectContribution(contribution)
+                                }) : '')
                         )
                     )
                 ),
@@ -123,7 +123,7 @@ const projectContributionReportContentCard = {
                                                 ' Recebida'
                                             ]) : '')
                                     ),
-                                    m('.fontsize-smallest.fontweight-semibold', `Recompensa: R$ ${h.formatNumber(reward.minimum_value, 2, 3)}`),
+                                    m('.fontsize-smallest.fontweight-semibold', reward.minimum_value ? `Recompensa: ${h.formatNumber(reward.minimum_value, 2, 3)}` : 'Recompensa: '),
                                     m('.fontsize-smallest', `${reward.description.substring(0, 80)}...`)
                                 ])
                             ])

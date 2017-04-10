@@ -29,6 +29,7 @@ const models = {
     projectContributionsPerDay: postgrest.model('project_contributions_per_day'),
     projectContributionsPerLocation: postgrest.model('project_contributions_per_location'),
     projectContributionsPerRef: postgrest.model('project_contributions_per_ref'),
+    projectVisitorsPerDay: postgrest.model('project_visitors_per_day'),
     projectTransfer: postgrest.model('project_transfers'),
     project: postgrest.model('projects'),
     projectSearch: postgrest.model('rpc/project_search'),
@@ -47,8 +48,10 @@ const models = {
     userFollower: postgrest.model('user_followers'),
     creatorSuggestion: postgrest.model('creator_suggestions'),
     userContribution: postgrest.model('user_contributions'),
+    shippingFee: postgrest.model('shipping_fees'),
     deleteProject: postgrest.model('rpc/delete_project'),
-    cancelProject: postgrest.model('rpc/cancel_project')
+    cancelProject: postgrest.model('rpc/cancel_project'),
+    city: postgrest.model('cities')
 };
 
 models.teamMember.pageSize(40);
@@ -64,6 +67,7 @@ models.projectContribution.pageSize(9);
 models.contributor.pageSize(9);
 models.recommendedProjects.pageSize(3);
 models.bank.pageSize(400);
+models.city.pageSize(200);
 
 
 export default models;

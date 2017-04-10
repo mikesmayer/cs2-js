@@ -31,6 +31,8 @@ const
         return date ? moment(date).locale('pt').format(format) : 'no date';
     },
 
+    getRandomInt = (min: number, max: number): number => Math.floor(Math.random() * (max - min + 1)) + min,
+
     storeAction = (action: string, value: string) => {
         if (!sessionStorage.getItem(action)) {
             return sessionStorage.setItem(action, String(value));
@@ -55,6 +57,8 @@ const
         }
         return null;
     },
+
+    capitalize = (string: string): ?string => string.charAt(0).toUpperCase() + string.slice(1),
 
     discuss = (page: Object, identifier: string) => {
         const d = document,
@@ -855,6 +859,18 @@ const
         };
 
         return contributionVM.canBeDelivered(contribution) ? status[contribution.delivery_status] : '';
+    },
+    getParams = (searchKey: string) => {
+        const query = window.location.href;
+        const queryParams = (/^[?#]/.test(query) ? query.slice(1) : query).split('?');
+
+        return queryParams.length > 1 ? queryParams[1]
+            .split('&')
+            .reduce((params, param) => {
+                const [key, value] = param.split('=');
+                params[key] = value ? decodeURIComponent(value.replace(/\+/g, ' ')) : '';
+                return params;
+            }, {})[searchKey] : null;
     };
 
 
@@ -884,6 +900,7 @@ export default {
     getApiHost,
     getMailchimpUrl,
     getCurrentProject,
+    getParams,
     toggleProp,
     loader,
     newFeatureBadge,
@@ -904,6 +921,7 @@ export default {
     callStoredAction,
     UIHelper,
     toAnchor,
+    capitalize,
     paramByName,
     i18nScope,
     RDTracker,
@@ -911,6 +929,7 @@ export default {
     animateScrollTo,
     scrollTo,
     scrollTop,
+    getRandomInt,
     projectStateTextClass,
     validationErrors,
     validate,
