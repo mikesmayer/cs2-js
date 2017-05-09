@@ -35,6 +35,7 @@ const projectRewardList = {
             vm.applyMask(`${shippingFee + rewardMinValue},00`);
         };
 
+        // @TODO: move submit, fee & value logic to VM
         const submitContribution = () => {
             const valueFloat = h.monetaryToFloat(vm.contributionValue);
             const shippingFee = rewardVM.hasShippingOptions(vm.selectedReward()) ? vm.shippingFeeForCurrentReward(selectedDestination) : { value: 0 };
@@ -45,13 +46,15 @@ const projectRewardList = {
                 vm.error(`O valor de apoio para essa recompensa deve ser de no mínimo R$${vm.selectedReward().minimum_value} + frete R$${h.formatNumber(shippingFee.value)}`);
             } else {
                 vm.error('');
-                h.navigateTo(`/projects/${projectVM.currentProject().project_id}/contributions/fallback_create?contribution%5Breward_id%5D=${vm.selectedReward().id}&contribution%5Bvalue%5D=${valueFloat}&contribution%5Bshipping_fee_id%5D=${shippingFee.id}`);
+                const valueUrl = window.encodeURIComponent(String(valueFloat).replace('.', ','));
+                h.navigateTo(`/projects/${projectVM.currentProject().project_id}/contributions/fallback_create?contribution%5Breward_id%5D=${vm.selectedReward().id}&contribution%5Bvalue%5D=${valueUrl}&contribution%5Bshipping_fee_id%5D=${shippingFee.id}`);
             }
 
             return false;
         };
         const isRewardOpened = reward => vm.selectedReward().id === reward.id;
         const isRewardDescriptionExtended = reward => descriptionExtended() === reward.id;
+        const isLongDescription = reward => reward.description.length > 110;
         if (h.getStoredObject(storeKey)) {
             const {
                 value,
@@ -71,6 +74,7 @@ const projectRewardList = {
             submitContribution,
             toggleDescriptionExtended,
             isRewardOpened,
+            isLongDescription,
             isRewardDescriptionExtended,
             selectDestination,
             selectedDestination,
@@ -108,11 +112,18 @@ const projectRewardList = {
             m('.u-marginbottom-20', [
                 m('.fontsize-base.fontweight-semibold', `Para R$ ${h.formatNumber(reward.minimum_value)} ou mais`)
             ]),
+            m('.fontsize-smaller.fontweight-semibold',
+                    reward.title
+                ),
 
-            m('.fontsize-smaller.u-margintop-20.reward-description', {
-                class: ctrl.isRewardOpened(reward) ? `opened ${ctrl.isRewardDescriptionExtended(reward) ? 'extended' : ''}` : ''
+            m(`.fontsize-smaller.reward-description${h.rewardSouldOut(reward) ? '' : '.fontcolor-secondary'}`, {
+                class: ctrl.isLongDescription(reward)
+                         ? ctrl.isRewardOpened(reward)
+                            ? `opened ${ctrl.isRewardDescriptionExtended(reward) ? 'extended' : ''}`
+                            : ''
+                         : 'opened extended'
             }, m.trust(h.simpleFormat(h.strip(reward.description)))),
-            ctrl.isRewardOpened(reward) ? m('a[href="javascript:void(0);"].alt-link.fontsize-smallest.gray.link-more.u-marginbottom-20', {
+            ctrl.isLongDescription(reward) && ctrl.isRewardOpened(reward) ? m('a[href="javascript:void(0);"].alt-link.fontsize-smallest.gray.link-more.u-marginbottom-20', {
                 onclick: () => ctrl.toggleDescriptionExtended(reward.id)
             }, [
                 ctrl.isRewardDescriptionExtended(reward) ? 'menos ' : 'mais ',
